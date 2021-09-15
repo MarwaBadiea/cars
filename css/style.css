@@ -1,0 +1,472 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: none;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#section1 {
+    background-image: url('../images/header-bg.jpg');
+    background-position: center 0%;
+    
+}
+
+#section1 .filter {
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.container {
+    width: 1150px;
+    margin: 0 auto;
+}
+
+#nav img {
+    float: left;
+    padding-top: 10px;
+}
+
+#nav ul {
+    list-style-type: none;
+    float: right;
+    padding-top: 15px;
+}
+
+#nav ul li {
+    display: inline-block;
+    text-transform: uppercase;
+    
+}
+
+#nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    padding: 10px;
+    font-size: 15px;
+}
+
+#nav ul li a:hover {
+   /* background-color: #f9b700;
+    border-radius: 8px; */
+
+    color: #f9b700;
+    font-size: 18px;
+}
+
+#section1 .content {
+    float: left;
+    color: #fff;
+    padding-top: 150px;
+}
+
+#section1 .content h3 {
+    text-transform: uppercase;
+    font-size: 15px;
+    letter-spacing: 3px;
+    font-weight: normal;
+    padding-bottom: 25px;
+}
+
+#section1 .content h1 {
+    text-transform: uppercase;
+    font-size: 40px;
+    letter-spacing: 4px;
+    padding-bottom: 30px;
+}
+
+#section1 .content p {
+    padding-bottom: 50px;
+}
+
+.link {
+    background-color: #f9b700;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 15px 35px;
+    color: #fff;
+    border: #f9b700;
+    margin-top: 50px;
+    cursor: pointer;
+}
+
+#section1 .form {
+    background-color: rgba(13, 19, 33, 0.6);
+    float: right;
+    margin-top: 20px;
+    padding: 30px 30px;
+    border: thin solid #777;
+    margin-bottom: 35px;
+}
+
+.form h2 {
+    color: #fff;
+    padding: 20px 0 30px;
+}
+
+.form select {
+    width: 400px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    background-color: #f1f1f1;
+    margin-bottom: 15px;
+    font-size: 18px;
+    color: #777;
+}
+
+.form .group1 {
+    width: 180px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    background-color: #f1f1f1;
+    margin-bottom: 15px;
+    margin-right: 15px;
+    font-size: 18px;
+    color: #777;
+}
+
+.form .group2 {
+    width: 155px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    background-color: #f1f1f1;
+    margin-bottom: 15px;
+    margin-left: 15px;
+    font-size: 18px;
+    color: #777;
+    float: right;
+}
+
+.form input {
+    width: 365px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    background-color: #f1f1f1;
+    margin-bottom: 15px;
+    font-size: 18px;
+    color: #777;
+}
+
+.form .button {
+    background-color: #f9b700;
+    width: 400px;
+    color: #fff;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.clearfix {
+    clear: both;
+}
+
+#section2 {
+    margin-bottom: 20px;
+    padding-top: 30px;
+}
+
+#section2 .container h1 {
+    text-align: center;
+    padding: 15px 0;
+    color: rgba(0, 0, 0, 0.8);
+}
+
+#section2 p {
+    color: #777;
+    text-align: center;
+    padding: 10px 0 15px;
+}
+
+#section2 .service {
+    width: 317px;
+    height: 200px;
+    background-color: #ededf7;
+    float: left;
+    margin: 5px 26px 15px 0;
+    border-radius: 13px;
+    padding: 10px 20px;
+}
+
+.service img {
+    float: left;
+    padding-top: 30px;
+    padding-right: 10px;
+    padding-left: 20px;
+}
+
+#section2 .service h3 {
+    padding-top: 30px;
+    padding-bottom: 10px;
+    color: rgba(0, 0, 0, 0.8);
+}
+
+#section2 .service p {
+    clear: both;
+    text-align: justify;
+    padding: 20px 20px;
+}
+
+#section3 {
+    margin: 150px 40px;
+}
+
+#section3 img {
+    width: 600px;
+    height: 450px;
+    float: left;
+}
+
+#section3>div {
+    float: right;
+    width: 600px;
+    padding-top: 75px;
+}
+
+#section3 h1 {
+    font-size: 42px;
+    color: rgba(0, 0, 0, 0.9);
+
+}
+
+#section3 h3 {
+    padding: 15px 0;
+    font-size: 15px;
+    color: rgba(0, 0, 0, 0.9);
+
+}
+
+#section3 p {
+    text-align: justify;
+    color: #777;
+    padding-bottom: 50px;
+}
+
+#section4 {
+    margin: 150px 40px 60px;
+}
+
+#section4 h1{
+    text-align: center;
+    font-size: 42px;
+    color: rgba(0, 0, 0, 0.9);
+}
+
+#section4 p {
+    text-align: center;
+    color: #777;
+    padding: 15px 0;
+}
+
+#section5 img {
+    float: right;
+}
+
+#section5 .content {
+    padding-top: 30px;
+    width: 560px;
+}
+
+#section5 #head {
+    color: rgba(0, 0, 0, 0.9);
+    font-size: 25px;
+    padding-right: 220px;
+}
+
+#section5 h1 {
+    color: #f9b700;
+    font-size: 40px;
+    font-weight: bold;
+    display: inline;
+}
+
+#section5 p {
+    padding-top: 40px;
+    color: #777;
+    padding-bottom: 30px;
+}
+
+#link1 {
+    background-color: rgba(0, 0, 0, 0.9);
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 10px 35px;
+    color: #fff;
+    border: rgba(0, 0, 0, 0.9);
+    margin-top: 50px;
+    cursor: pointer;
+}
+
+#list {
+    list-style-type: none;
+    text-align: center;
+    padding: 40px 0;
+}
+
+#list li {
+    width: 10px;
+    height: 10px;
+    background-color: #bfbfbf;
+    display: inline-block;
+    margin-left: 5px;
+    cursor: pointer;
+}
+
+#list .active {
+    background-color: #f9b700;
+}
+
+#section6 {
+    background-image: url('../images/callaction-bg.jpg');
+    height: 410px;
+}
+
+#section6>div {
+    background-color: rgba(0, 0, 0, 0.7);
+    height: 410px;
+}
+
+#section6 h1 {
+    text-align: center;
+    color: #fff;
+    padding: 130px 0 15px;
+}
+
+#section6 p {
+    text-align: center;
+    color: #fff;
+}
+
+#link2 {
+    display: inline-block;
+    background-color: transparent;
+    font-weight: bold;
+    text-decoration: none;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 10px 35px;
+    color: #f9b700;
+    border: thin solid #f9b700;
+    margin-top: 40px;
+    margin-left: 450px;
+    cursor: pointer;
+}
+
+#section7 {
+    background-color: #FAF9FF;
+    padding: 40px 0;
+    
+}
+
+#section7 .container {
+    background-color: #FAF9FF;
+
+}
+
+#section7 h1 {
+    text-align: center;
+    color: rgba(0, 0, 0, 0.9);
+    padding-bottom: 15px;
+}
+
+#section7 .para {
+    text-align: center;
+    color: #777;
+    padding-bottom: 30px;
+}
+
+article {
+    width: 263px;
+    float: left;
+    margin-right: 24px;
+}
+
+article .span1 {
+    background-color: rgba(0, 0, 0, 0.9);
+    color: #FAF9FF;
+    display: block;
+    width: 100px;
+    padding: 5px 15px;
+    margin: 15px 0;
+}
+
+article h3 {
+    color: rgba(0, 0, 0, 0.9);
+}
+
+article p {
+    color: #777;
+    text-align: justify;
+    padding: 17px 0;
+}
+
+article span {
+    color: #777;
+}
+
+article img {
+    padding-top: 3px;
+}
+
+article .span2  {
+    padding-right: 66px;
+}
+
+footer {
+    background-color: #04091D;
+    padding: 60px 0;
+}
+
+footer h2 {
+    color: #fff;
+    padding: 10px 0;
+}
+
+footer p {
+    padding: 15px 0;
+    color: #777;
+}
+
+footer a {
+    text-decoration: none;
+    color: #777;
+}
+
+footer a:hover {
+    color: #fff;
+}
+
+footer .foot {
+    float: left;
+    margin-right: 70px;
+}
+
+footer .foot img {
+    margin-right: 5px;
+}
+
+#in1 {
+    width: 250px;
+    height: 35px;
+    background-color: #fff;
+    color: #777;
+    border: thin solid #fff;
+    padding-left: 5px;
+}
+
+#in2 {
+    width: 30px;
+    height: 37px;
+    background-color: #f9b700;
+    border: thin solid #f9b700;
+    color: #fff;
+    cursor: pointer;
+}
+
+footer .last {
+    text-align: center;
+    padding: 60px 0 25px;
+}
